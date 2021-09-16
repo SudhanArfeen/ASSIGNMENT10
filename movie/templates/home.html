@@ -1,0 +1,65 @@
+{% extends "blog/basic.html"%}
+{% block title %}
+    HOME TITLE
+{% endblock title%}
+
+{% block css%}
+    h1{
+        color:black;
+    }
+
+    
+    
+{% endblock css%}
+{% block body%}
+    <main role="main" style="background-image: linear-gradient(pink, lightblue); font-family: Times New Roman ">
+<br/>
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron" >
+      <div class="container"  >
+        <h1 class="display-3" align="center"> MOVIES </h1>
+        <p>A movie, or film, is a type of visual communication which uses moving pictures and sound to tell stories or teach people something. Most people watch (view) movies as a type of entertainment or a way to have fun. For some people, fun movies can mean movies that make them laugh, while for others it can mean movies that make them cry, or feel afraid.Most movies are made so that they can be shown on screen in Cinemas and at home. Movies are shown in Cinemas for a period of a few weeks or months, they may be marketed through several other medias. They are shown on pay television or cable television, and sold or rented on DVD disks or videocassette tapes, so that people can watch the movies at home. You can also download or stream movies. Older movies are shown on television broadcasting stations.</p>
+        <div class="d-flex">
+       
+          <p class="mx-2"  ><a class="btn btn-danger btn-sm" align-items= "center" href="/members/login" role="button">LOGIN !!!</a></p>
+          <p><a class="btn btn-danger btn-sm" href="/members/signup" role="button">SIGN UP !!!</a></p>
+     
+        </div>
+      </div>
+    </div>
+    </br>
+    </br>
+
+    <div class="container" >
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2 align="center"> NETFLIX </h2>
+          <p>Netflix, Inc. is an American over-the-top content platform and production company headquartered in Los Gatos, California, United States. The company is a subscription-based streaming service provider offering online streaming from a library of films and television series, 40% of which is Netflix original programming produced in-house. It often produces more original series and films than any network or cable company. Netflix has also played a prominent role in independent film distribution.[10] As of July 2021, Netflix had 209 million subscribers, including 72 million in the United States and Canada.[11][12] It is available worldwide except in mainland China (due to local restrictions), Syria, North Korea, and Crimea (due to US sanctions). Netflix is a member of the Motion Picture Association</p>
+          <p><a class="btn btn-success" href="#" role="button">READ MORE &raquo;</a></p>
+        </div>
+
+        <div class="col-md-4">
+          <h2 align="center">AMAZON PRIME VIDEO</h2>
+          <p>Amazon Prime Video, or simply Prime Video, is a subscription video on-demand over-the-top streaming and rental service of Amazon.com, Inc., offered as a standalone service or as part of Amazon's Prime subscription. The service primarily distributes films and television series produced by Amazon Studios or licensed to Amazon, as Amazon Originals, with the service also hosting content from other providers, content add-ons, live sporting events, and video rental and purchasing services. Operating worldwide, the service may require a full Prime subscription to be accessed. In countries such as the United States, United Kingdom, and Germany, the service can be accessed without a full Prime subscription,[2] whereas in Australia, Canada, France, India, Turkey and Italy, it can only be accessed through a dedicated website. Prime Video additionally offers a content add-on service in the form of channels, called Amazon Channels, or Prime Video Channels, which allow users to subscribe to additional video subscription services from other content providers within Prime Video, such as HBO, Showtime, StarzPlay, and Shudder</p>
+          <p><a class="btn btn-success" href="#" role="button">READ MORE &raquo;</a></p>
+        </div>
+        
+        <div class="col-md-4">
+          <h2 align="center"> CHRUNCHYROLL</h2>
+          <p> Crunchyroll, Inc. is an American distributor, publisher, production and licensing company focused on streaming anime, manga, and dorama. Founded in 2006 by a group of University of California, Berkeley graduates,[8] Crunchyroll's distribution channel and partnership program delivers content to over 100 million registered users worldwide.[9] Crunchyroll was a subsidiary of Otter Media, which is a subsidiary of AT&T's WarnerMedia.[10] Sony announced in December 2020 that its joint venture anime business Funimation, ran by Sony Pictures Television and Sony Music Entertainment Japan's Aniplex, would acquire Crunchyroll from AT&T for approximately US$1.175 billion;[11] the completion of the acquisition was announced on August 9, 2021.[12] Crunchyroll has offices in San Francisco, Los Angeles, Tokyo, Lausanne, Paris, Berlin, and Chișinău,[13] and is a member of The Association of Japanese Animations (AJA).[14] "Crunchyroll Hime", also known as "Hime", is the official mascot of Crunchyroll</p>
+          <p><a class="btn btn-success" href="#" role="button">READ MORE &raquo;</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+    </div> <!-- /container -->
+
+  </main>
+
+  <footer class="container" style=" text-align: center">
+    <p>&copy; Company 2020-2021</p>
+  </footer>
+
+{% endblock body %}
